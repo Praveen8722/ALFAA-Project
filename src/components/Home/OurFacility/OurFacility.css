@@ -1,0 +1,32 @@
+/* .our-facility {
+  background-color: #f8e9db;
+} */
+.our-facility-area {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.alfaa-sub-title {
+  font-size: 16px;
+  color: var(--main-color);
+  margin-bottom: 5px;
+}
+.facility-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.facility-content h5 {
+  color: var(--main-color);
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+@media (max-width: 767px) {
+  .facility-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

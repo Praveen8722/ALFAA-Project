@@ -1,0 +1,42 @@
+.whatis-alfaa-container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.whatis-alfaa-container h2{
+    color:var(--main-color);
+}
+.wa-icon{
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    background-color: var(--main-color);
+    font-size: 50px;
+    color: var(--tp-common-white);
+    text-align: center;
+    margin-right: 20px;
+    transition: 0.3s;
+    position: relative;
+    z-index: 1;
+}
+.wa-count{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    
+}
+@media (max-width: 767px) {
+    /* .wa-count{
+        font-size: 35px;
+    } */
+}
+@media (max-width: 1024px) {
+    .wa-icon{
+        height: 76px;
+        width: 76px;
+        font-size: 35px;
+        line-height: 85px;
+        margin-right: 25px;
+    }
+    
+}
